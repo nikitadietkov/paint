@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <div id="bar">
+        <div id="color">
+            <input id="inpColor" type="color">
+            <input id="inpFill" class="btn" type="button" value="Fill" onclick="canvasFill()">
+            <input id="inpReset" class="btn" type="button" value="Reset" onclick="canvasReset()">
+            <input id="inpReset" class="btn" type="button" value="Ялинка" onclick="ChristmasTree()">
+        </div>
+        <div id="lineWeight">
+            <input type="range" min="0" max="100" step="1" value="5" id="inpWeidth">
+            <span style="color: white;" id="showWeight">5</span>
+        </div>
+    </div>
+    <canvas id="cnvs"></canvas>
+    <div id="stat">
+        By myself
+    </div>
+    <img src="./image/elka.jpg" alt="">
+</body>
+</html>
